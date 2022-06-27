@@ -24,6 +24,18 @@
   "settings": {
     "react": {
       "version": "detect"
+    },
+    "importer/extensions": [".js", ".jsx", ".ts", ".tsx", ".mdx"],
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts", ".tsx", ".js", ".jsx"]
+    },
+    "import/resolver": {
+      "typescript": {
+        "alwaysTryTypes": true
+      },
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx", ".mdx"]
+      }
     }
   }
 }
