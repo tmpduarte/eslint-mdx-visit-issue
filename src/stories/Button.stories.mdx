@@ -1,10 +1,16 @@
-import { Canvas, Meta, Story } from "@storybook/addon-docs";
-import { Button } from "./Button";
+import { Canvas, Meta } from "@storybook/addon-docs";
+import { MyButton } from "./Button";
+import {
+  Button,
+} from '@mui/material';
 
 <Meta title="Button" />
 
 # Title
 
 <Canvas>
-  <Button text="Button" />
+  <MyButton text="Button" disabled />
+  <Button variant="text" size="large" disabled>
+    MUI Button
+  </Button>
 </Canvas>

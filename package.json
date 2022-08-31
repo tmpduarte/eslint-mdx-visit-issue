@@ -12,6 +12,9 @@
     "lint-stories": "eslint --ext .mdx src"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/material": "^5.10.3",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
   },
@@ -31,7 +34,7 @@
     "@vitejs/plugin-react": "^1.3.0",
     "babel-loader": "^8.2.5",
     "eslint": "^8.18.0",
-    "eslint-plugin-mdx": "^2.0.0",
+    "eslint-plugin-mdx": "https://pkg.csb.dev/mdx-js/eslint-mdx/commit/98013f6e/eslint-plugin-mdx",
     "eslint-plugin-react": "^7.30.1",
     "typescript": "^4.6.3",
     "vite": "^2.9.9"
